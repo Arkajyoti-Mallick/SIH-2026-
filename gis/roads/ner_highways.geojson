@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "name": "NER_Strategic_Highways",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "NH-10",
+        "name": "National Highway 10 (Siliguri - Rangpo - Gangtok)",
+        "status": "CAUTION_HEAVY_RAIN",
+        "vulnerability": "HIGH",
+        "critical_points": "29th Mile, Setijhora, Likuvir, Rangpo Checkpost",
+        "jurisdiction": "Border Roads Organisation (Project Swastik)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [88.4200, 26.8500],
+          [88.4800, 26.9600],
+          [88.5200, 27.1200],
+          [88.5350, 27.1767],
+          [88.5800, 27.2700],
+          [88.6138, 27.3389]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "NH-29",
+        "name": "National Highway 29 (Dimapur - Chumukedima - Kohima)",
+        "status": "RESTRICTED",
+        "vulnerability": "EXTREME",
+        "critical_points": "Pagala Pahar, Old Chumukedima, Peducha Sinking Zone",
+        "jurisdiction": "NHIDCL / Nagaland PWD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [93.7250, 25.9000],
+          [93.8100, 25.8200],
+          [93.9500, 25.7500],
+          [94.0500, 25.7000],
+          [94.1086, 25.6751]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "NH-55",
+        "name": "National Highway 55 (Hill Cart Road Siliguri - Kurseong - Darjeeling)",
+        "status": "OPERATIONAL",
+        "vulnerability": "MODERATE",
+        "critical_points": "Paglajhora, Tindharia, Kurseong Curve",
+        "jurisdiction": "West Bengal PWD Roads"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [88.3500, 26.8000],
+          [88.3300, 26.8800],
+          [88.2800, 26.9800],
+          [88.2663, 27.0410]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "SH-AIZ",
+        "name": "Aizawl - Sairang - Lengpui Airport Corridor",
+        "status": "OPERATIONAL",
+        "vulnerability": "MODERATE",
+        "critical_points": "Sairang Bridge Approach, Sihhmui Escarpment",
+        "jurisdiction": "Mizoram PWD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [92.6200, 23.8300],
+          [92.6600, 23.8000],
+          [92.6850, 23.7600],
+          [92.7176, 23.7271]
+        ]
+      }
+    }
+  ]
+}

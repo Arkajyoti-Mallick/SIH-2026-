@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "name": "NER_Vulnerable_Settlements",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "settlement_id": "SETT-SKM-01",
+        "name": "Burtuk Basti",
+        "zone_id": "NER-024",
+        "state": "Sikkim",
+        "population": 3400,
+        "shelter": "Burtuk Senior Secondary School",
+        "shelter_capacity": 650,
+        "hazard_exposure": "HIGH",
+        "nearest_phc": "Gangtok STNM Hospital (4.2 km)"
+      },
+      "geometry": { "type": "Point", "coordinates": [88.6085, 27.3465] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "settlement_id": "SETT-SKM-02",
+        "name": "Rangpo Bazar Riverside",
+        "zone_id": "NER-025",
+        "state": "Sikkim",
+        "population": 5200,
+        "shelter": "Rangpo Mining Ground Community Hall",
+        "shelter_capacity": 900,
+        "hazard_exposure": "EXTREME",
+        "nearest_phc": "Rangpo Community Health Centre (0.8 km)"
+      },
+      "geometry": { "type": "Point", "coordinates": [88.5320, 27.1780] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "settlement_id": "SETT-NGL-01",
+        "name": "Peducha Old Village",
+        "zone_id": "NER-028",
+        "state": "Nagaland",
+        "population": 2100,
+        "shelter": "Peducha Baptist Church Complex",
+        "shelter_capacity": 450,
+        "hazard_exposure": "EXTREME",
+        "nearest_phc": "Sechu Zubza PHC (3.5 km)"
+      },
+      "geometry": { "type": "Point", "coordinates": [94.1020, 25.6790] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "settlement_id": "SETT-MIZ-01",
+        "name": "Chite Veng Hillside",
+        "zone_id": "NER-029",
+        "state": "Mizoram",
+        "population": 4800,
+        "shelter": "YMA Community Hall Chite",
+        "shelter_capacity": 700,
+        "hazard_exposure": "HIGH",
+        "nearest_phc": "Civil Hospital Aizawl (3.1 km)"
+      },
+      "geometry": { "type": "Point", "coordinates": [92.7150, 23.7310] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "settlement_id": "SETT-WB-01",
+        "name": "Paglajhora Colony",
+        "zone_id": "NER-026",
+        "state": "West Bengal",
+        "population": 1950,
+        "shelter": "Mahanadi Community Center",
+        "shelter_capacity": 380,
+        "hazard_exposure": "MODERATE",
+        "nearest_phc": "Kurseong Sub-Divisional Hospital (6.0 km)"
+      },
+      "geometry": { "type": "Point", "coordinates": [88.2610, 27.0420] }
+    }
+  ]
+}

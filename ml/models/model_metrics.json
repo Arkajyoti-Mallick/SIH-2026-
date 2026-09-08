@@ -1,0 +1,57 @@
+{
+  "model_name": "LandSlideX-NER-Ensemble",
+  "version": "v2.4.1-SIH2026",
+  "algorithm": "RandomForestClassifier + IsolationForest",
+  "training_samples": 4000,
+  "test_samples": 1000,
+  "metrics": {
+    "roc_auc": 0.968,
+    "accuracy": 0.918,
+    "confusion_matrix": [
+      [
+        267,
+        39
+      ],
+      [
+        43,
+        651
+      ]
+    ]
+  },
+  "feature_importances": {
+    "rainfall_24h_mm": 0.1562,
+    "pore_water_pressure_kpa": 0.1402,
+    "historical_density": 0.1318,
+    "rainfall_72h_mm": 0.1159,
+    "soil_moisture_vwc": 0.1031,
+    "antecedent_precip_index": 0.0738,
+    "rainfall_intensity_mmh": 0.0619,
+    "distance_to_road_cut_m": 0.0588,
+    "slope_deg": 0.0546,
+    "sensor_anomaly_score": 0.0362,
+    "lithology_weakness": 0.0278,
+    "elevation_m": 0.0207,
+    "distance_to_drainage_m": 0.0189
+  },
+  "features": [
+    "rainfall_intensity_mmh",
+    "rainfall_24h_mm",
+    "rainfall_72h_mm",
+    "antecedent_precip_index",
+    "soil_moisture_vwc",
+    "pore_water_pressure_kpa",
+    "slope_deg",
+    "elevation_m",
+    "lithology_weakness",
+    "historical_density",
+    "distance_to_road_cut_m",
+    "distance_to_drainage_m",
+    "sensor_anomaly_score"
+  ],
+  "thresholds": {
+    "low": 25,
+    "moderate": 50,
+    "high": 75,
+    "extreme": 100
+  }
+}

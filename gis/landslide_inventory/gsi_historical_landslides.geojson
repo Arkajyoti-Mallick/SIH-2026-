@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "name": "GSI_Historical_Landslide_Inventory",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "event_id": "GSI-SKM-2023-01",
+        "name": "Dikchu-Burtuk Debris Slide",
+        "date": "2023-10-04",
+        "trigger": "Cloudburst & Teesta Flash Flood",
+        "trigger_rain_24h_mm": 164.5,
+        "volume_m3": 45000,
+        "fatalities": 2,
+        "infrastructure_damage": "NH-10 culvert washed out, 3 vehicles damaged",
+        "geology": "Burtuk gneissic shear zone"
+      },
+      "geometry": { "type": "Point", "coordinates": [88.6050, 27.3480] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "event_id": "GSI-SKM-2024-04",
+        "name": "Rangpo 20th Mile Slope Failure",
+        "date": "2024-06-18",
+        "trigger": "Continuous Monsoon Downpour",
+        "trigger_rain_24h_mm": 142.0,
+        "volume_m3": 82000,
+        "fatalities": 0,
+        "infrastructure_damage": "NH-10 blocked for 48 hours",
+        "geology": "Daling phyllitic toe undercut"
+      },
+      "geometry": { "type": "Point", "coordinates": [88.5380, 27.1810] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "event_id": "GSI-NGL-2024-02",
+        "name": "Pagala Pahar Rockfall & Mudflow",
+        "date": "2024-07-02",
+        "trigger": "Extreme Pre-Monsoon Storm",
+        "trigger_rain_24h_mm": 188.0,
+        "volume_m3": 120000,
+        "fatalities": 3,
+        "infrastructure_damage": "NH-29 severed, 2 trucks crushed, retaining wall failure",
+        "geology": "Disang weathered shale"
+      },
+      "geometry": { "type": "Point", "coordinates": [94.1100, 25.6720] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "event_id": "GSI-MIZ-2024-01",
+        "name": "Aizawl Melthum Quarry Landslide",
+        "date": "2024-05-28",
+        "trigger": "Cyclone Remal Induced Torrential Rain",
+        "trigger_rain_24h_mm": 172.0,
+        "volume_m3": 95000,
+        "fatalities": 14,
+        "infrastructure_damage": "Stone quarry collapsed into residential riverbank",
+        "geology": "Surma siltstone bedding plane slide"
+      },
+      "geometry": { "type": "Point", "coordinates": [92.7090, 23.7220] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "event_id": "GSI-WB-2020-03",
+        "name": "Paglajhora Sinking Slump",
+        "date": "2020-08-14",
+        "trigger": "Prolonged 7-day Antecedent Rain",
+        "trigger_rain_24h_mm": 115.0,
+        "volume_m3": 35000,
+        "fatalities": 0,
+        "infrastructure_damage": "Toy Train tracks distorted, Hill Cart Road cracked",
+        "geology": "Colluvial mantle slide"
+      },
+      "geometry": { "type": "Point", "coordinates": [88.2630, 27.0450] }
+    }
+  ]
+}

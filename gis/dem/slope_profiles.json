@@ -1,0 +1,44 @@
+{
+  "dem_source": "ALOS PALSAR 12.5m / SRTM 30m Resampled",
+  "datum": "WGS84",
+  "units": {
+    "elevation": "meters",
+    "slope": "degrees",
+    "aspect": "compass_degrees"
+  },
+  "profiles": [
+    {
+      "zone_id": "NER-024",
+      "name": "Burtuk Ridge Cross-section",
+      "elevation_min": 1380,
+      "elevation_max": 1920,
+      "slope_mean": 38.5,
+      "slope_max": 51.2,
+      "dominant_aspect": "SE (135°)",
+      "plan_curvature": "CONCAVE (Water Accumulating)",
+      "profile_curvature": "CONVEX (Accelerating Flow)"
+    },
+    {
+      "zone_id": "NER-025",
+      "name": "Rangpo Teesta Gorge",
+      "elevation_min": 280,
+      "elevation_max": 820,
+      "slope_mean": 44.0,
+      "slope_max": 62.0,
+      "dominant_aspect": "W (270°)",
+      "plan_curvature": "CONVERGENT",
+      "profile_curvature": "CLIFF_ESCARPMENT"
+    },
+    {
+      "zone_id": "NER-028",
+      "name": "Pagala Pahar NH-29 Defile",
+      "elevation_min": 1150,
+      "elevation_max": 1680,
+      "slope_mean": 41.5,
+      "slope_max": 54.8,
+      "dominant_aspect": "NW (315°)",
+      "plan_curvature": "GULLY_CHANNEL",
+      "profile_curvature": "ACTIVE_SLUMP"
+    }
+  ]
+}

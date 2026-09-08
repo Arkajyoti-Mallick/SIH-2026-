@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "name": "NER_Landslide_Risk_Zones",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "NER-024",
+        "name": "Gangtok North Corridor (Burtuk-Penlong)",
+        "state": "Sikkim",
+        "district": "East Sikkim",
+        "highway": "NH-10 Spur / Dikchu Road",
+        "risk_score": 42,
+        "risk_level": "MODERATE",
+        "confidence": 91,
+        "slope_deg": 38.5,
+        "elevation_m": 1650,
+        "rainfall_24h_mm": 46.2,
+        "soil_moisture_vwc": 54.8,
+        "pore_pressure_kpa": 14.2,
+        "geology": "Gneissic weathered schist with thin topsoil",
+        "population_exposed": 12400,
+        "sensors_online": 8,
+        "sensors_total": 8,
+        "trend": "INCREASING",
+        "recommended_action": "Routine slope inspection, monitor Burtuk drainage channels, prepare local quick-response team."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.5950, 27.3320],
+            [88.6180, 27.3340],
+            [88.6250, 27.3500],
+            [88.6080, 27.3560],
+            [88.5900, 27.3450],
+            [88.5950, 27.3320]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "NER-025",
+        "name": "Rangpo Teesta Valley Gorge",
+        "state": "Sikkim",
+        "district": "Pakyong",
+        "highway": "NH-10 National Lifeline",
+        "risk_score": 68,
+        "risk_level": "HIGH",
+        "confidence": 88,
+        "slope_deg": 44.0,
+        "elevation_m": 350,
+        "rainfall_24h_mm": 72.4,
+        "soil_moisture_vwc": 67.3,
+        "pore_pressure_kpa": 22.8,
+        "geology": "Daling phyllites with active toe erosion",
+        "population_exposed": 8900,
+        "sensors_online": 6,
+        "sensors_total": 7,
+        "trend": "INCREASING",
+        "recommended_action": "Deploy field verification team, restrict heavy vehicles on NH-10, alert Border Roads Organisation."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.5200, 27.1680],
+            [88.5450, 27.1700],
+            [88.5520, 27.1850],
+            [88.5300, 27.1920],
+            [88.5150, 27.1800],
+            [88.5200, 27.1680]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "NER-026",
+        "name": "Darjeeling Paglajhora Hill Cart Corridor",
+        "state": "West Bengal (NER Belt)",
+        "district": "Darjeeling",
+        "highway": "NH-55 / Rohini Road",
+        "risk_score": 34,
+        "risk_level": "MODERATE",
+        "confidence": 89,
+        "slope_deg": 36.2,
+        "elevation_m": 1420,
+        "rainfall_24h_mm": 38.0,
+        "soil_moisture_vwc": 48.6,
+        "pore_pressure_kpa": 11.4,
+        "geology": "Darjeeling gneiss with colluvial debris",
+        "population_exposed": 15600,
+        "sensors_online": 5,
+        "sensors_total": 6,
+        "trend": "STABLE",
+        "recommended_action": "Maintain routine hourly sensor polling and visual monitoring of culvert runoffs."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.2520, 27.0280],
+            [88.2780, 27.0320],
+            [88.2830, 27.0510],
+            [88.2610, 27.0580],
+            [88.2450, 27.0420],
+            [88.2520, 27.0280]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "NER-027",
+        "name": "Shillong Peak Escarpment",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills",
+        "highway": "Shillong Bypass / Upper Shillong",
+        "risk_score": 18,
+        "risk_level": "LOW",
+        "confidence": 94,
+        "slope_deg": 28.0,
+        "elevation_m": 1965,
+        "rainfall_24h_mm": 18.5,
+        "soil_moisture_vwc": 32.1,
+        "pore_pressure_kpa": 6.8,
+        "geology": "Shillong Group quartzites & sandstones",
+        "population_exposed": 31200,
+        "sensors_online": 8,
+        "sensors_total": 8,
+        "trend": "STABLE",
+        "recommended_action": "Continue normal surveillance schedule."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.8750, 25.5620],
+            [88.9100, 25.5650],
+            [88.9180, 25.5900],
+            [88.8880, 25.5980],
+            [88.8680, 25.5780],
+            [88.8750, 25.5620]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "NER-028",
+        "name": "Kohima Pagala Pahar Sinking Zone",
+        "state": "Nagaland",
+        "district": "Kohima",
+        "highway": "NH-29 Dimapur-Kohima Corridor",
+        "risk_score": 79,
+        "risk_level": "EXTREME",
+        "confidence": 93,
+        "slope_deg": 41.5,
+        "elevation_m": 1444,
+        "rainfall_24h_mm": 88.4,
+        "soil_moisture_vwc": 76.2,
+        "pore_pressure_kpa": 28.6,
+        "geology": "Disang shales with expansive montmorillonite clay",
+        "population_exposed": 18500,
+        "sensors_online": 7,
+        "sensors_total": 8,
+        "trend": "INCREASING",
+        "recommended_action": "Immediate emergency inspection, initiate NH-29 traffic diversion via Tsiesema, notify State Disaster Authority."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [94.0920, 25.6600],
+            [94.1250, 25.6640],
+            [94.1320, 25.6880],
+            [94.1050, 25.6960],
+            [94.0850, 25.6780],
+            [94.0920, 25.6600]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "NER-029",
+        "name": "Aizawl Chite Valley Slope Basin",
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "highway": "Aizawl-Lunglei Highway",
+        "risk_score": 52,
+        "risk_level": "HIGH",
+        "confidence": 87,
+        "slope_deg": 39.0,
+        "elevation_m": 1132,
+        "rainfall_24h_mm": 58.7,
+        "soil_moisture_vwc": 61.4,
+        "pore_pressure_kpa": 18.9,
+        "geology": "Surma Group interbedded shale and fine sandstone",
+        "population_exposed": 22300,
+        "sensors_online": 5,
+        "sensors_total": 6,
+        "trend": "INCREASING",
+        "recommended_action": "Verify slope retaining walls and inspect drainage outfalls in high-density hillside wards."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [92.7050, 23.7150],
+            [92.7320, 23.7180],
+            [92.7390, 23.7400],
+            [92.7120, 23.7470],
+            [92.6980, 23.7310],
+            [92.7050, 23.7150]
+          ]
+        ]
+      }
+    }
+  ]
+}
